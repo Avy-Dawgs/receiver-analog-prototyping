@@ -239,6 +239,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -419,6 +420,14 @@
     [
       "e9dc583c-35fc-43e6-96d7-d148e3dd184c",
       "Root"
+    ],
+    [
+      "acfb5c68-7b0f-46bf-93eb-352c24d2de73",
+      "PGA"
+    ],
+    [
+      "9db68fba-6560-4901-9b4c-26f57520ff52",
+      "Stage1"
     ]
   ],
   "text_variables": {}

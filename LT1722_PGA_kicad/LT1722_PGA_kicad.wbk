@@ -2,19 +2,9 @@
   "last_sch_text_sim_command": "",
   "tabs": [
     {
-      "analysis": "OP",
-      "commands": [
-        ".op",
-        ".kicad adjustpaths",
-        ".save all",
-        ".probe alli",
-        ".probe allp"
-      ]
-    },
-    {
       "analysis": "TRAN",
       "commands": [
-        ".tran 10n 10u",
+        ".tran 500n 10u",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -34,7 +24,7 @@
     {
       "analysis": "AC",
       "commands": [
-        ".ac dec 1000 100k 1Meg",
+        ".ac dec 100 10k 1m",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -49,18 +39,7 @@
       },
       "measurements": [],
       "showGrid": true,
-      "traces": [
-        {
-          "color": "rgb(55, 126, 184)",
-          "signal": "V(/Vin) (gain)",
-          "trace_type": 521
-        },
-        {
-          "color": "rgb(228, 26, 28)",
-          "signal": "V(/Vout) (gain)",
-          "trace_type": 521
-        }
-      ]
+      "traces": []
     }
   ],
   "user_defined_signals": [],
