@@ -19,7 +19,18 @@
       },
       "measurements": [],
       "showGrid": true,
-      "traces": []
+      "traces": [
+        {
+          "color": "rgb(152, 78, 163)",
+          "signal": "V(/PGA/Sigin)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(255, 255, 51)",
+          "signal": "V(/PGA/Sigout)",
+          "trace_type": 257
+        }
+      ]
     },
     {
       "analysis": "AC",
@@ -39,7 +50,32 @@
       },
       "measurements": [],
       "showGrid": true,
-      "traces": []
+      "traces": [
+        {
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(/PGA/Sigout) (gain)",
+          "trace_type": 521
+        },
+        {
+          "color": "rgb(152, 78, 163)",
+          "cursor1": {
+            "position": 456544.8883924238,
+            "x_format": "3~Hz",
+            "y_format": "3~dB"
+          },
+          "cursor2": {
+            "position": 554102.0330009458,
+            "x_format": "3~Hz",
+            "y_format": "3~dB"
+          },
+          "cursorD": {
+            "x_format": "3~Hz",
+            "y_format": "3~dB"
+          },
+          "signal": "V(/Stage1/Sigout) (gain)",
+          "trace_type": 521
+        }
+      ]
     }
   ],
   "user_defined_signals": [],

@@ -144,6 +144,168 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -729,6 +891,12 @@
 		(uuid "0a30334c-dfd7-4573-b18b-2c459a065c5b")
 	)
 	(junction
+		(at 114.3 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22705b12-c9e8-48e4-9597-8c642e89e763")
+	)
+	(junction
 		(at 101.6 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -741,6 +909,12 @@
 		(uuid "449f74a1-80bf-4a19-87ed-03aec34b4bec")
 	)
 	(junction
+		(at 114.3 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46ffc3c5-836c-4a7d-ad0a-b2af19965600")
+	)
+	(junction
 		(at 113.03 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -751,6 +925,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75cdd8a7-edf1-4d10-979e-b896a3f98216")
+	)
+	(junction
+		(at 90.17 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3d727a7-68d6-4a05-b9c0-b4e37b702034")
 	)
 	(wire
 		(pts
@@ -774,6 +954,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 109.22) (xy 90.17 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f62e4e-c0cb-49ba-9453-dd967b3aff7b")
+	)
+	(wire
+		(pts
 			(xy 105.41 109.22) (xy 114.3 109.22)
 		)
 		(stroke
@@ -784,6 +974,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 134.62) (xy 90.17 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3883741e-2bac-4923-8988-d62a84f94dc6")
+	)
+	(wire
+		(pts
 			(xy 90.17 88.9) (xy 90.17 109.22)
 		)
 		(stroke
@@ -791,6 +991,26 @@
 			(type default)
 		)
 		(uuid "4021d837-982d-40f9-9452-c8924ea25fa7")
+	)
+	(wire
+		(pts
+			(xy 97.79 134.62) (xy 90.17 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48822d14-8765-4096-8f4c-32500fa7bc1a")
+	)
+	(wire
+		(pts
+			(xy 105.41 123.19) (xy 114.3 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "615f4235-fba6-4c55-a382-f203e26f968d")
 	)
 	(wire
 		(pts
@@ -854,6 +1074,26 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 134.62) (xy 114.3 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2d340e6-ec76-4a43-8b5b-5c6867245600")
+	)
+	(wire
+		(pts
+			(xy 114.3 134.62) (xy 114.3 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c65feed5-374a-4f40-8e27-fb7799e0f22b")
+	)
+	(wire
+		(pts
 			(xy 101.6 54.61) (xy 113.03 54.61)
 		)
 		(stroke
@@ -861,6 +1101,16 @@
 			(type default)
 		)
 		(uuid "c9054e36-cb19-4fee-800c-51135738a841")
+	)
+	(wire
+		(pts
+			(xy 114.3 109.22) (xy 114.3 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf9d870b-f620-4c3d-a549-6d43bf94c2d9")
 	)
 	(wire
 		(pts
@@ -891,6 +1141,16 @@
 			(type default)
 		)
 		(uuid "ef5ef1fa-fde2-4caa-b5b2-e9055c5af12c")
+	)
+	(wire
+		(pts
+			(xy 97.79 123.19) (xy 90.17 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2ed8dd2-3981-4ce9-9696-9a13b7371ddd")
 	)
 	(wire
 		(pts
@@ -933,6 +1193,74 @@
 			(justify left)
 		)
 		(uuid "7a01928d-2e38-41a3-8905-d732f13a5e5b")
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 101.6 134.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0154fd43-61e2-456b-b880-f651eadc4c3e")
+		(property "Reference" "L1"
+			(at 101.6 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6.8u"
+			(at 101.6 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 101.6 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ee78d785-02bd-44a5-baec-8db3847d3264")
+		)
+		(pin "1"
+			(uuid "bb08523a-b0ef-427d-98ad-8533e007dac6")
+		)
+		(instances
+			(project "LT1722_PGA_kicad"
+				(path "/e9dc583c-35fc-43e6-96d7-d148e3dd184c/acfb5c68-7b0f-46bf-93eb-352c24d2de73"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1653,6 +1981,74 @@
 			(project ""
 				(path "/e9dc583c-35fc-43e6-96d7-d148e3dd184c/acfb5c68-7b0f-46bf-93eb-352c24d2de73"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 101.6 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3a81944-a6cc-4203-871c-939e103e3df9")
+		(property "Reference" "C11"
+			(at 101.6 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "17.84n"
+			(at 101.6 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 122.2248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 101.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5df913c1-9fbc-4bc1-bb14-20e5315e122c")
+		)
+		(pin "1"
+			(uuid "56bb1fd9-cf9b-46b7-9fe8-9e2f19e4333c")
+		)
+		(instances
+			(project "LT1722_PGA_kicad"
+				(path "/e9dc583c-35fc-43e6-96d7-d148e3dd184c/acfb5c68-7b0f-46bf-93eb-352c24d2de73"
+					(reference "C11")
 					(unit 1)
 				)
 			)
