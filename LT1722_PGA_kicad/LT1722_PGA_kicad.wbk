@@ -52,19 +52,14 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(55, 126, 184)",
-          "signal": "V(/PGA/Sigout) (gain)",
-          "trace_type": 521
-        },
-        {
           "color": "rgb(152, 78, 163)",
           "cursor1": {
-            "position": 456544.8883924238,
+            "position": 457000.0,
             "x_format": "3~Hz",
             "y_format": "3~dB"
           },
           "cursor2": {
-            "position": 554102.0330009458,
+            "position": 509413.8014816344,
             "x_format": "3~Hz",
             "y_format": "3~dB"
           },
