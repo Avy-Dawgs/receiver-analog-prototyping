@@ -54,7 +54,7 @@
         {
           "color": "rgb(77, 175, 74)",
           "cursor1": {
-            "position": 449514.4455575903,
+            "position": 456994.76169521274,
             "x_format": "3~Hz",
             "y_format": "3~dB"
           },
@@ -68,7 +68,7 @@
         {
           "color": "rgb(228, 26, 28)",
           "cursor2": {
-            "position": 452918.0783569974,
+            "position": 457188.0359884556,
             "x_format": "3~Hz",
             "y_format": "3~dB"
           },
