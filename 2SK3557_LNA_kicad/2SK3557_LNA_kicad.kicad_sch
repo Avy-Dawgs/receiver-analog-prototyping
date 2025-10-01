@@ -1208,6 +1208,16 @@
 			(width 0)
 			(type default)
 		)
+		(uuid "a318ef56-bae7-4979-b44e-e7d6e9ead375")
+	)
+	(wire
+		(pts
+			(xy 154.94 101.6) (xy 154.94 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
 		(uuid "add8dcd3-de75-47bb-9ea0-e577f60f2188")
 	)
 	(wire
@@ -1229,16 +1239,6 @@
 			(type default)
 		)
 		(uuid "c0a90a16-47f9-4967-b577-8dacdc9ff8e7")
-	)
-	(wire
-		(pts
-			(xy 154.94 101.6) (xy 154.94 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c69aca4e-2775-4c26-bbcf-ffe608fdf9a6")
 	)
 	(wire
 		(pts
@@ -1812,7 +1812,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "9k"
+		(property "Value" "8.87k"
 			(at 139.7 88.8999 0)
 			(effects
 				(font
@@ -1882,7 +1882,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20"
+		(property "Value" "124"
 			(at 157.48 116.8399 0)
 			(effects
 				(font
@@ -2261,7 +2261,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "750"
+		(property "Value" "1.21k"
 			(at 139.7 105.4099 0)
 			(effects
 				(font
@@ -2463,7 +2463,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "499"
 			(at 157.48 86.3599 0)
 			(effects
 				(font
@@ -2533,7 +2533,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "80"
+		(property "Value" "124"
 			(at 157.48 107.9499 0)
 			(effects
 				(font
